@@ -1,0 +1,195 @@
+body{
+    background:url(food3.jpg);
+    background-position:center;
+    height:100vh;
+}
+.menu{
+	
+	border:7px solid aqua;
+	text-align:center;
+	font-size:x-large;
+        font-family:serif;
+	color:white;
+}
+
+.topic{
+	color:white;
+	text-align:center;
+	font-size:35px;
+        font-family:serif;
+	
+	width:550px;
+	height:75px;
+	margin-left:500px ;
+	border:9px solid black;
+	border-radius: 20px;
+}
+
+.content {
+        color:white;
+	text-align:center;
+	font-size:x-large;
+        font-family:serif;		
+}
+
+.slider-frame{
+	overflow: hidden;
+	height: 550px;
+	width: 900px;
+	margin-left: 325px;
+	margin-top: 25px;
+}
+
+@-webkit-keyframes slide_animation{
+	0%{left: 0px;}
+	10%{left: 0px;}
+	20%{left: 900px;}
+	30%{left: 900px;}
+	40%{left: 1800px;}
+	50%{left: 1800px;}
+	60%{left: 900px;}
+	70%{left: 900px;}
+	80%{left: 0px;}
+	90%{left: 0px;}
+	100%{left: 0px;}
+} 
+
+.slider-images{
+	width: 2700px;
+	height: 550px;
+	margin: 0 0 0 -1800px;
+	position: relative;
+	-webkit-animation-name: slide_animation;
+	-webkit-animation-duration: 30s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-play-state: running;
+}
+
+.img-container{
+	height: 550px;
+	width: 900px;
+	position: relative;
+	float: left;
+}
+
+.warper{
+	margin-left:100px;
+	width:50%;
+
+}
+
+img.addimage{
+	border:2px solid black;
+	border-radius: 12px;	
+	float:left;
+
+}
+
+.text-home{
+	color:aqua;
+	font-size: 22px;
+        text-align:center;
+	height:225px;
+	width:500px;
+	margin-left:410px ;
+	border:4px solid black;
+	line-height:30px;
+	
+}
+.text-about{
+	color:white;
+        font-size:18px;
+	height:400px;
+	width:1325px;
+	margin-left:75px ;
+	border:14px solid white;
+	line-height:30px;
+	border-radius: 50px;
+}
+
+img.srilanka{
+	border:3px solid black;
+	border-radius: 1px;
+	margin-left:100px;
+}
+img.indian{
+	border:3px solid black;
+	border-radius: 1px;
+}
+img.itali{
+	border:3px solid black;
+	border-radius: 1px;
+}
+img.chinese{
+	border:3px solid black;
+	border-radius: 1px;
+}
+p.para1{
+	color:white;
+        font-size:22px;
+	margin-left:160px ;
+	float:left;
+}
+p.para2{
+	color:white;
+        font-size:22px;
+	margin-left:180px ;
+	float:left;
+}
+p.para3{
+	color:white;
+        font-size:22px;
+	margin-left:180px ;
+	float:left;
+}
+p.para4{
+	color:white;
+        font-size:22px;
+	margin-left:1120px ;
+	
+}
+.contact{
+	border:10px solid black;
+        color:aqua;
+	text-align:center;
+	font-size:x-large;
+        font-family:serif;
+}
+a{
+	color:white;
+}
+.paragraph{ 
+	color:white;
+        font-size:20px;
+        width:80%;
+        margin-left:130px;
+	
+}
+.ingrediant{
+	margin-left:100px;
+	
+}
+img.addimage1 {
+	border:2px solid black;
+	border-radius: 12px;	
+	float:right;
+        margin-right:400px;
+        margine-up:150px;
+}
+.paragraph1{
+	color:white;
+        font-size:18px;
+ }
+.back{
+	border:4px solid red;
+        height:60px;
+	width:90px;
+	line-height:1px;
+	background-color:red;
+	margin-left:500px;
+
+            	
+
+
+
